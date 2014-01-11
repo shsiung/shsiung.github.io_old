@@ -50,7 +50,7 @@ html, body{
 	margin:0 0 1px;
 	line-height: 1.5;
 	background-color:white;
-	background-image:url(../images/bg.png);
+	background-image:url(../images/bg3.jpg);
 	background-position:left top;
 	background-repeat:repeat;
 
@@ -60,6 +60,7 @@ html, body{
 
 p {
 	margin-bottom:7px;
+	color: #202020 ;
 	}
 	
 a, p a {
@@ -117,9 +118,9 @@ h2{
 	
 h3{
 
-	font-size: 28px;
+	font-size: 30px;
 	line-height:1.6;
-	color:#00CCFF;
+	color:#0099FF;
 	text-transform:capitalize;
 	text-align:left;
 	background-color:transparent;
@@ -133,7 +134,7 @@ h3{
 	
  h3 span{
 	font-size: 12px;
-	color: black;
+	color: gray;
 	text-transform:capitalize;
 	height:24px;
 	margin-top:15px;
@@ -227,7 +228,7 @@ h4 span{
 	position: relative;
 	background:transparent;
 	padding:15px;
-	margin-bottom:10px;
+	margin-bottom:15px;
 
 
 	}
@@ -444,7 +445,7 @@ header{
 
 footer{
 	position:relative;
-	height:90px;
+	height:80px;
 	clear:both;
 	width:100%;
 	margin-bottom:18px;
@@ -492,7 +493,7 @@ nav{
 	position:absolute;
 	width:620px;
 	top:43px;
-	right:-12px;
+	right:50px;
 	background:transparent;
 
 
@@ -508,7 +509,7 @@ nav ul li{
 nav ul li a{
 	font-size: 20px;
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	color: black;
+	color: #0099FF;
 	text-transform:capitalize;
 	font-weight:normal;
 	display:block;	/* IE6, IE7 line height fix */
@@ -523,11 +524,11 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: gray;
+	color: white;
 
 }
 nav ul li a.current{
-	background-color:#00CCFF;
+	background-color:#0099FF;
 	padding:15px;
 	color:white;
 	-moz-border-radius: 8px;
