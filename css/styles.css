@@ -456,8 +456,10 @@ footer{
 }
 
 #FooterTwo{
-	position: absolute;
-	right: 225px;
+	/*position: absolute;*/
+	margin-right: auto;
+	margin-left: auto:;
+	/*right: 225px;*/
 	top:26px;
 	color:white;
 
