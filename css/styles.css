@@ -184,13 +184,15 @@ h4 span{
 	width:100%;
 	
 	}
-	#container{
+
+#container{
 			position:relative;
 			width:980px;
 			margin:0 auto;
 			text-align:left;
 			background-color:transparent;
 			padding:15px;
+			height:100%;
 			
 }
 
@@ -255,6 +257,17 @@ h4 span{
 
 
 	}
+
+.group6 {
+	float: right;
+	width: 70%;
+	position: relative;
+	background:transparent;
+	padding:15px;
+	margin-bottom:10px;
+
+
+	}
 	
 	
 	
@@ -280,7 +293,28 @@ h4 span{
 	
 	
 	}
+
+.aboutmepic{
+	width: 200px;
+	position: absolute;
+	top:60px;
+	background:transparent;
+	margin-top:-37px;
+	margin-left:-40px;
 	
+	
+	}
+
+.aboutmetext{
+	width: 380px;
+	position: absolute;
+	top:6px;
+	right:170px;
+	background:transparent;
+	margin-top:50px;
+	
+	
+	}
 
 
 			
@@ -323,7 +357,7 @@ header{
 	margin-top:15px;
 	background:transparent;
 	background: url(../images/line.png) 0 -18px no-repeat;
-
+    height:100%;
 
 
 	}
@@ -448,7 +482,7 @@ footer{
 	height:80px;
 	clear:both;
 	width:100%;
-	margin-bottom:18px;
+	bottom:0;
 	background-color:#663366;
 	
 
