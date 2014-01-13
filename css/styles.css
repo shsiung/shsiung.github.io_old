@@ -182,7 +182,7 @@ h4 span{
 #container, #container_left, #container_right{
 	position: relative;
 	width:100%;
-	
+	height:100%;
 	}
 
 #container{
@@ -297,10 +297,10 @@ h4 span{
 .aboutmepic{
 	width: 200px;
 	position: absolute;
-	top:60px;
+	top:6px;
 	background:transparent;
-	margin-top:-37px;
-	margin-left:-40px;
+	margin-top:50px;
+	margin-left:200px;
 	
 	
 	}
@@ -340,7 +340,7 @@ header{
 	padding:10px;
 	background:transparent;
 	margin-top:17px;
-
+	height:100%;
 
 
 	
@@ -482,7 +482,7 @@ footer{
 	height:80px;
 	clear:both;
 	width:100%;
-	bottom:0;
+	bottom:0px;
 	background-color:#663366;
 	
 
