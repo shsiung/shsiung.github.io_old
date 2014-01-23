@@ -61,20 +61,21 @@ html, body{
 p {
 	margin-bottom:7px;
 	color: #202020 ;
+	font-size: 17px;
 	}
 	
 a, p a {
 	text-decoration:none;
 	color:blue;
 	}
-	a:hover {color:white;}
-	a:link {color:#0099FF;}     /* unvisited link */
-	a:visited {color:#0099FF;}  /* visited link */
+	a:hover {color:#990000;}
+	a:link {color:#3333CC;}     /* unvisited link */
+	a:visited {color:#3333CC;}  /* visited link */
 	
 
 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6{
 	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	/*font-family: Arial, Helvetica, sans-serif;*/
     font-weight: normal;
@@ -113,7 +114,7 @@ h2{
 	color:black;
 	text-align:left;
 	width:420px;
-	padding-top:8px;
+	padding:12px;
 	margin-left:40px;
 
 
@@ -171,12 +172,20 @@ h4 span{
 	-webkit-border-radius: .5em; 
 	-moz-border-radius: .5em;
 	border-radius: .5em;
-
-
-
-
 }
 
+h5{
+	line-height:1.6;
+	font-size: 18px;
+	font-weight:bold;
+	text-align:left;
+}
+
+h6{
+	line-height:1.6;
+	font-size: 25px;
+	text-align:left;
+}
 	
 
 /***************************************************
@@ -219,7 +228,7 @@ h4 span{
 	float: left;
 	width: 290px;
 	position: relative;
-	background:transparent;
+	backgrounFd:transparent;
 	padding:15px;
 	margin-bottom:10px;
 	margin-left:10px;
@@ -320,6 +329,45 @@ h4 span{
 	
 	}
 
+.contact{
+	width: 380px;
+	position: relative;
+	top:0px;
+	right:-40px;
+	background:transparent;
+	margin-top:40px;
+	
+	
+}
+
+.project_entry {
+clear: both;
+padding: 12px 0 12px 0;
+border-bottom: 1px #f0eee5 solid;
+width: 100%;
+}
+
+.project_pic{
+	width: 200px;
+	position: absolute;
+	top:6px;
+	background:transparent;
+	margin-top:50px;
+	margin-left:200px;
+	
+	
+	}
+
+.project_text{
+	width: 380px;
+	position: absolute;
+	top:6px;
+	right:170px;
+	background:transparent;
+	margin-top:50px;
+	
+	
+	}
 
 			
 header{
@@ -355,6 +403,8 @@ header{
 ***************************************************/	
 
 .holder_content {
+	font-size: 30px;
+	line-height:1.6;
 	position: relative;
 	float: left;
 	width: 100%;
@@ -487,7 +537,8 @@ footer{
 	clear:both;
 	width:100%;
 	bottom:0px;
-	background-color:#0099FF;
+	float:bottom;
+	background-color:#3333CC;
 	
 
 	}
@@ -520,6 +571,14 @@ footer{
 
 }
 
+.blue_divider {
+width: 920px;
+height: 1px;
+border-top: 2px solid #0091ed;
+clear: both;
+margin: 10px 20px 0 20px;
+}
+
 
 
 
@@ -528,10 +587,11 @@ footer{
 ***************************************************/
 
 nav{
-	position:absolute;
-	width:620px;
+	float:right;
+	position:relative;
+	/*width:620px;*/
 	top:43px;
-	right:50px;
+	/*right:50px;*/
 	background:transparent;
 
 
@@ -562,15 +622,16 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: white;
+	border-bottom:2px solid #990000;
+	color: #990000;
 
 }
 nav ul li a.current{
-	background-color:#0099FF;
-	padding:15px;
-	color:white
-;	-moz-border-radius: 8px;
-	border-radius: 8px;
+	/*background-color:#0099FF;*/
+	/*padding:15px;*/
+	/*color:white;
+	-moz-border-radius: 8px;*/
+	/*border-radius: 8px;*/
 
 
 }
