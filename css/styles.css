@@ -68,8 +68,8 @@ a, p a {
 	color:blue;
 	}
 	a:hover {color:white;}
-	a:link {color:#CC3333;}     /* unvisited link */
-	a:visited {color:#CC3333;}  /* visited link */
+	a:link {color:#0099FF;}     /* unvisited link */
+	a:visited {color:#0099FF;}  /* visited link */
 	
 
 
@@ -487,7 +487,7 @@ footer{
 	clear:both;
 	width:100%;
 	bottom:0px;
-	background-color:#CC3333;
+	background-color:#0099FF;
 	
 
 	}
@@ -566,10 +566,10 @@ nav ul li a:hover{
 
 }
 nav ul li a.current{
-	background-color:#CC3333;
+	background-color:#0099FF;
 	padding:15px;
-	color:white;
-	-moz-border-radius: 8px;
+	color:white
+;	-moz-border-radius: 8px;
 	border-radius: 8px;
 
 
