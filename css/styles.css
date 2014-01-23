@@ -64,10 +64,14 @@ p {
 	}
 	
 a, p a {
-	text-decoration:underline;
-	color:white;
+	text-decoration:none;
+	color:blue;
 	}
 	a:hover {color:white;}
+	a:link {color:#CC3333;}     /* unvisited link */
+	a:visited {color:#CC3333;}  /* visited link */
+	
+
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -483,7 +487,7 @@ footer{
 	clear:both;
 	width:100%;
 	bottom:0px;
-	background-color:#663366;
+	background-color:#CC3333;
 	
 
 	}
@@ -562,7 +566,7 @@ nav ul li a:hover{
 
 }
 nav ul li a.current{
-	background-color:#0099FF;
+	background-color:#CC3333;
 	padding:15px;
 	color:white;
 	-moz-border-radius: 8px;
