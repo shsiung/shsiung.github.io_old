@@ -185,6 +185,7 @@ h6{
 	line-height:1.6;
 	font-size: 25px;
 	text-align:left;
+	padding-top:12px;
 }
 	
 
@@ -333,7 +334,7 @@ h6{
 	width: 380px;
 	position: relative;
 	top:0px;
-	right:-40px;
+	right:-52px;
 	background:transparent;
 	margin-top:40px;
 	
