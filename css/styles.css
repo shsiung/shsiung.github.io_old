@@ -24,7 +24,7 @@ ol, ul {
 }
 
 
-a img {border:none}
+a img {border:5px}
 
 
 aside, details, figcaption, figure, 
@@ -62,7 +62,14 @@ p {
 	margin-bottom:7px;
 	color: #202020 ;
 	font-size: 17px;
-	}
+	padding:7px;
+}
+
+p a:hover{
+	border-bottom:1px solid #990000;
+	color: #990000;
+}
+
 	
 a, p a {
 	text-decoration:none;
@@ -120,14 +127,22 @@ h2{
 
 	}
 
+h2 a:hover{
+	border-bottom:1px solid #990000;
+	color: #990000;
+
+
+	}
+
+
 	
 h3{
 
 	font-size: 30px;
 	line-height:1.6;
-	color:#0099FF;
+	color:#3333CC;
 	text-transform:capitalize;
-	text-align:left;
+	text-align:middle;
 	background-color:transparent;
 	padding-top:12px;
 	margin-bottom:9px;
@@ -211,9 +226,10 @@ h6{
 }
 
 
+
 .group1 {
 	float: left;
-	width: 290px;
+	width: 100%;
 	position: relative;
 	background:transparent;
 	padding:15px;
@@ -364,6 +380,16 @@ width: 100%;
 	position: absolute;
 	top:6px;
 	right:170px;
+	background:transparent;
+	margin-top:50px;
+	
+	
+	}
+
+.homepage{
+	width: 100%;
+	position: relative;
+	top:6px;
 	background:transparent;
 	margin-top:50px;
 	
@@ -612,7 +638,7 @@ nav ul li a{
 	text-transform:capitalize;
 	font-weight:normal;
 	display:block;	/* IE6, IE7 line height fix */
-	padding:15px;
+	padding:10px;
 	background-color:transparent;
 	margin-top:0px;
 	margin-right:6px;
@@ -622,18 +648,20 @@ nav ul li a{
 
 }
 
-nav ul li a:hover{
-	border-bottom:2px solid #990000;
-	color: #990000;
-
-}
 nav ul li a.current{
+	border-bottom:2px solid #3333CC;
 	/*background-color:#0099FF;*/
 	/*padding:15px;*/
 	/*color:white;
 	-moz-border-radius: 8px;*/
 	/*border-radius: 8px;*/
 
+
+}
+
+nav ul li a:hover{
+	border-bottom:2px solid #990000;
+	color: #990000;
 
 }
 
@@ -676,7 +704,7 @@ nav ul li a.current{
 
 /***************************************************
 				   SPECIFIC
-***************************************************/
+**************************************************/
 
 #logo{
 	position:relative;
