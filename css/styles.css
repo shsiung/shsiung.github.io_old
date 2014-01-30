@@ -62,7 +62,9 @@ p {
 	margin-bottom:7px;
 	color: #202020 ;
 	font-size: 17px;
-	padding:7px;
+	padding-top:7px;
+	padding-bottom:7px;
+
 }
 
 p a:hover{
@@ -121,7 +123,7 @@ h2{
 	color:black;
 	text-align:left;
 	width:420px;
-	padding:12px;
+	padding-bottom:12px;
 	margin-left:40px;
 
 
@@ -329,7 +331,7 @@ h6{
 	position: absolute;
 	top:6px;
 	background:transparent;
-	margin-top:50px;
+	margin-top:60px;
 	margin-left:200px;
 	
 	
@@ -350,9 +352,9 @@ h6{
 	width: 380px;
 	position: relative;
 	top:0px;
-	right:-52px;
+	right:-38px;
 	background:transparent;
-	margin-top:40px;
+	margin-top:20px;
 	
 	
 }
@@ -365,14 +367,12 @@ width: 100%;
 }
 
 .project_pic{
-	width: 200px;
+	width: 100px;
 	position: absolute;
 	top:6px;
 	background:transparent;
-	margin-top:50px;
-	margin-left:200px;
-	
-	
+	margin-top: 50px;
+	margin-left: 200px;
 	}
 
 .project_text{
